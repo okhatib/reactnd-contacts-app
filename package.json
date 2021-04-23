@@ -4,10 +4,9 @@
   "private": true,
   "dependencies": {
     "form-serialize": "^0.7.2",
-    "prop-types": "^15.6.2",
     "react": "^16.6.3",
-    "react-router-dom": "^4.3.1",
     "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -24,5 +23,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "prop-types": "^15.7.2",
+    "sort-by": "^1.2.0"
+  }
 }
